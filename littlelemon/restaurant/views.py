@@ -5,7 +5,7 @@ from rest_framework.viewsets import ModelViewSet
 from .models import Menu,Booking
 from .serializers import BookingSerializer,MenuSerializer
 from rest_framework.permissions import IsAuthenticated
-# Create your views here.
+
 def index(request):
     return render(request, 'index.html', {})
 
